@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/register_bg" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/iv_back_selected"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/default_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <ImageView
+        android:id="@+id/user_name_bg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/logo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/login_user_name_bg" />
+
+    <ImageView
+        android:id="@+id/psw_bg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/user_name_bg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/login_psw_bg" />
+
+    <ImageView
+        android:id="@+id/user_name"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/logo"
+        android:layout_marginTop="29dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/user_name_icon" />
+
+    <ImageView
+        android:id="@+id/psw"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/user_name"
+        android:layout_marginTop="47dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/psw_icon" />
+
+    <EditText
+        android:id="@+id/edit_user"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入用户名"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:layout_toRightOf="@id/user_name"
+        android:layout_alignBottom="@id/user_name"/>
+
+    <EditText
+        android:id="@+id/edit_psw"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="请输入密码"
+        android:password="true"
+        android:maxLines="1"
+        android:scrollHorizontally="true"
+        android:layout_toRightOf="@id/psw"
+        android:layout_alignBottom="@id/psw" />
+
+    <android.widget.Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginRight="10dp"
+        android:background="#FF9800"
+        android:text="登录"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:orientation="horizontal">
+
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_below="@id/login"
+        android:background="#0000"
+        android:text="立即注册"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <android.widget.Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_below="@id/login"
+        android:background="#0000"
+        android:text="找回密码"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

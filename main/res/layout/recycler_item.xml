@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <androidx.constraintlayout.utils.widget.ImageFilterView
+        android:id="@+id/iv"
+        android:layout_width="120dp"
+        android:layout_height="90dp"
+        android:src="@drawable/exercises_bg_1"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#FF8F03"
+            android:text="第1章 Android基本入门"/>
+        <TextView
+            android:id="@+id/introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/name"
+            android:textColor="#FF716C6D"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:text="共计5题"/>
+    </RelativeLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
