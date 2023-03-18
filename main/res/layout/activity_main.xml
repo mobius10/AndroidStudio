@@ -108,28 +108,26 @@
         android:layout_below="@id/login"
         android:orientation="horizontal">
 
-    <android.widget.Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_below="@id/login"
-        android:background="#0000"
-        android:text="立即注册"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp" />
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_below="@id/login"
+            android:background="#0000"
+            android:text="立即注册"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
-    <android.widget.Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:layout_below="@id/login"
-        android:background="#0000"
-        android:text="找回密码"
-        android:textColor="#FFFFFF"
-        android:textSize="20sp" />
+        <android.widget.Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_below="@id/login"
+            android:background="#0000"
+            android:text="找回密码"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
     </LinearLayout>
-
-
 
 </RelativeLayout>

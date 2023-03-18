@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Login</string>
+    <string name="app_name">new_login</string>
     <string name="tab_menu_course">新闻</string>
     <string name="tab_menu_exercises">习题</string>
     <string name="tab_menu_my">我</string>
